@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/metatx/ERC2771Context.sol";
  */
 contract MinimalBAYC is ERC721, ERC2771Context {
     uint256 public currentTokenId;
-    uint256 public constant apePrice = 10000000000000000; //0.08 ETH
+    uint256 public constant apePrice = 10000000000000000; //0.01 ETH
     uint256 public MAX_APES;
 
     constructor(string memory _name, string memory _symbol, uint256 maxNftSupply, address trustedForwarder)
